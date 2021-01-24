@@ -6,6 +6,9 @@
         "atmel-samd": {
             "version": "v3.10.0",
         },
+        "esp32s2": {
+        	"version": "0.2.0",
+        },
         "stm": {
         },
         "cxd56": {
@@ -14,6 +17,45 @@
         },
     },
     "boards": {
+
+        "adafruit_magtag_2.9_grayscale": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_magtag_29gray",
+        },
+        "adafruit_metro_esp32s2": {
+            "family": "esp32s2",
+            "bootloader_id": "adafruit_metro_esp32s2",
+        },
+        "espressif_kaluga_1": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_kaluga_1",
+        },
+        "espressif_saola_1_wroom": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_saola_1_wroom",
+        },
+        "espressif_saola_1_wrover": {
+            "family": "esp32s2",
+            "bootloader_id": "espressif_saola_1_wrover",
+        },
+        "microdev_micro_s2": {
+            "family": "esp32s2",
+            "bootloader_id": "microdev_micro_s2",
+        },
+        "targett_module_clip_wroom": {
+            "family": "esp32s2",
+            "bootloader_id": "targett_mcb_wroom",
+        },
+        "targett_module_clip_wrover": {
+            "family": "esp32s2",
+            "bootloader_id": "targett_mcb_wrover",
+        },
+        "unexpectedmaker_feathers2": {
+            "family": "esp32s2",
+            "bootloader_id": "unexpectedmaker_feathers2",
+        },
+
+
         "8086_commander": {
             "family": "atmel-samd",
             "bootloader_id": "8086_commander",
