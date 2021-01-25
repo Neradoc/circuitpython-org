@@ -183,20 +183,16 @@ By the way, boolean operation precedence is right to left! (yeesh)
 
 {% if bootloader_board.family == 'esp32s2' %}
   <p>
-    Some blah blah about installing the UF2 bootloader from ROM bootloader
-    using the combo bin file (<a href="https://learn.adafruit.com/adafruit-magtag/install-uf2-bootloader">link to the magtag page or something</a>).
-  </p>
-  <p>
     To update, first save the contents of CIRCUITPY, just in case.
-    Then double-click the reset button to show the BOOT drive.
-    Or press the RESET button then the BOOT button while the status LED is purple.
+    Then double-click the reset button to show the BOOT drive on Adafruit boards.
+    Or press the RESET button then the BOOT button quickly while the status LED is purple.
     Extract the zip file below and drag the update-tinyuf2 .uf2 file to the BOOT drive.
     Wait a few tens of seconds for the bootloader to update; the BOOT drive will reappear.
     Check INFO_UF2.TXT to verify that the bootloader version has been updated.
     Then you will need to reload CircuitPython.
   </p>
   <p>
-    <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip">DOWNLOAD UPDATER UF2<i class="fas fa-download" aria-hidden="true"></i></a>
+    <a class="download-button" href="https://github.com/adafruit/tinyuf2/releases/download/{{ bootloader_version }}/tinyuf2-{{ bootloader_id }}-{{ bootloader_version }}.zip">DOWNLOAD UPDATER (ZIP)<i class="fas fa-download" aria-hidden="true"></i></a>
   </p>
   <div>
     <a class="download-button-unrecommended" href="https://github.com/adafruit/tinyuf2/releases/tag/{{ bootloader_version }}">BROWSE ON GITHUB<i class="fab fa-github" aria-hidden="true"></i></a>
